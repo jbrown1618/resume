@@ -34,10 +34,10 @@
 \newcommand{\skillsTable}[1]{
   \vspace{4pt}
   \hspace{-8pt}
-  \begin{tabular}{p{0.75in} p{6.5in}}
+  \begin{tabular}{p{0.8in} p{6.5in}}
     #1
   \end{tabular}
-  \vspace{-6pt}
+  \vspace{-8pt}
 }
 
 \newcommand{\skillsCategory}[2]{
@@ -78,11 +78,11 @@
   /Keywords (Software;Engineer;Java;Javascript;Angular;AngularJS)
 }
 
-\resumeHeader{\jabName}{
-  {\bf Contact} \\ \jabEmail \\ \jabPhone
-}{
-  {\bf Present Address} \\ \jabAddress
-}
+\resumeHeader{\jabName}
+  {{\bf Contact} \\ \jabEmail \\ \jabPhone}
+  {{\bf Present Address} \\ \jabAddress}
+
+%==============================================================================
 
 \resumeSection{Experience}{
   \jobExperience{Software Development Engineer II}{MetLife Inc.}{2014-Present}{
@@ -116,35 +116,51 @@
       HTML,
       CSS,
       Less,
+      Sass,
       SQL,
       XML,
-      MatLab,
       LaTeX,
-      Python (familiar),
-      Mathematica (familiar)
+      Markdown,
+      MatLab%,
+      %Python (familiar),
+      %Mathematica (familiar)
     }
-    \skillsCategory{Tools}{
-      AngularJS,
-      Agile Development (Scrum, Kanban),
-      Git,
-      Play Framework,
+    \skillsCategory{Frameworks}{
       Spring,
-      Bootstrap,
-      Grunt,
+      Play,
+      Spark,
+      Hibernate,
       JUnit,
       Mockito,
-      Karma,
-      Hibernate,
-      REST,
-      Selenium,
       Node.js,
-      Review Board
+      AngularJS (1.X),
+      Angular (2+),
+      Jasmine,
+      Bootstrap,
+      %React (familiar),
+      %Redux (familiar)
+    }
+    \skillsCategory{Tools}{
+      %Agile Development (Scrum, Kanban),
+      Maven,
+      Git,
+      Grunt,
+      Gulp,
+      Webpack,
+      Karma,
+      Selenium
     }
     \skillsCategory{Software}{
       IntelliJ IDEA,
+      WebStorm,
+      VS Code,
       Eclipse,
       %IBM Rational Application Developer,
       Rally,
+      Jenkins,
+      JIRA,
+      Bitbucket,
+      Review Board,
       DBeaver,
       Photoshop
     }
@@ -154,7 +170,7 @@
 %==============================================================================
 
 \resumeSection{Education}{
-  {\bf University of North Carolina at Chapel Hill} \hfill \dateStyle{May 2014} \\
+  {\bf University of North Carolina at Chapel Hill} \dotfill \dateStyle{May 2014} \\
   B.S. in Applied Mathematics \\
   B.A. in Physics, Minor in Music \\
   GPA 3.83 overall
@@ -199,4 +215,3 @@
 
 %==============================================================================
 \end{document}
-%==============================================================================
