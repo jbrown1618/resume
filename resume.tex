@@ -1,0 +1,198 @@
+\documentclass{article}
+
+\usepackage[margin=0.5in, letterpaper]{geometry} % margin configuration
+\usepackage{parskip} % use blank lines rather than indentation for paragraphs
+\usepackage{enumitem} % additional configuration for itemize environments
+
+%\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{helvet} % uses helvetica
+
+\def \jabName {Joshua A. Brown}
+\def \jabEmail {jbrown1.618@gmail.com}
+\def \jabPhone {(860) 271--9092}
+\def \jabAddress {104 Fox Run Ct.\\Durham, NC 27705}
+
+\newcommand{\bulletedList}[1]{
+  \begin{itemize}[leftmargin=*] \itemsep -6pt
+    #1
+  \end{itemize}
+}
+
+\newcommand{\dateStyle}[1]{\textit{#1}}
+
+\newcommand{\jobExperience}[4]{
+  {\bf #1,} #2 \hfill \dateStyle{#3}
+  \vspace{-6pt}
+  \bulletedList{#4}
+}
+
+\newcommand{\projectExperience}[4]{\jobExperience{#1}{#2}{#3}{#4}}
+\newcommand{\leadershipExperience}[4]{\jobExperience{#1}{#2}{#3}{#4}}
+
+\newcommand{\skillsTable}[1]{
+  \hspace{-8pt}
+  \begin{tabular}{p{0.75in} p{6.5in}}
+    #1
+  \end{tabular}
+}
+
+\newcommand{\skillsCategory}[2]{
+  {\bf #1:} & #2 \\[4pt]
+}
+
+\newcommand{\resumeSection}[2]{
+  {\bf #1}
+  
+  #2
+  
+  \vspace{-8pt}\hrulefill\vspace{-4pt}
+}
+
+\newcommand{\resumeHeader}[3]{
+  \begin{minipage}[t]{0.3\textwidth}
+    #2
+  \end{minipage}\begin{minipage}[t]{0.4\textwidth}
+    \begin{center}
+      {\bf #1}
+    \end{center}
+  \end{minipage}\begin{minipage}[t]{0.3\textwidth}
+    \begin{flushright}
+      #3
+    \end{flushright}
+  \end{minipage}
+}
+
+%==============================================================================
+\begin{document}
+\thispagestyle{empty}
+%==============================================================================
+
+\pdfinfo{
+  /Author (\jabName)
+  /Title (Resume - \jabName)
+  /Subject (Resume)
+  /Keywords (Software;Engineer;Java;Javascript;Angular;AngularJS)
+}
+
+\resumeHeader{\jabName}{
+  {\bf Contact} \\ \jabEmail \\ \jabPhone
+}{
+  {\bf Present Address} \\ \jabAddress
+}
+
+\resumeSection{Experience}{
+  \jobExperience{Software Development Engineer II}{MetLife Inc.}{2014-Present}{
+    \item Developed an enterprise application to be used by underwriters to renew group benefits products for over 10,000 companies a month, each of which with up to 2000 employees
+    \item Pioneered the company's use of new technologies such as AngularJS and the Play Framework on an Agile team 
+    \item Modified and clarified requirements by communicating closely with end-users and project managers
+    \item Implemented application-wide permissions by leading cross-functional communication with Enterprise Infrastructure teams
+    \item Taught Angular techniques to senior software engineers new to the tool as the team's designated subject matter expert for the user interface
+    \item Led automated end-to-end testing with Selenium, resulting in reduced dependency on offshore QA and closer adherence to Agile principles
+    \item Enforced best practices and design principles by conducting code reviews
+  }
+  
+  \jobExperience{MetLife Tech University Professional Program}{MetLife Inc.}{2014}{
+    \item Participated in the first cohort of the MTU Professional Program---an individualized six-month training program designed to prepare recent graduates for a technical career
+  }
+  
+  \jobExperience{Supplemental Instruction Leader}{UNC Department of Physics}{2013-2014}{
+    \item Planned and led three weekly Supplemental Instruction Sessions to give students the opportunity to practice effective problem-solving and study strategies for physics
+    \item Facilitated group problem-solving among introductory physics students
+    \item Created a 60-page textbook supplement for use by the students
+  }
+}
+
+%==============================================================================
+
+\resumeSection{Technical Skills}{
+  \skillsTable{
+    \skillsCategory{Languages}{
+      Java,
+      JavaScript,
+      HTML,
+      CSS,
+      Less,
+      SQL,
+      XML,
+      MatLab,
+      LaTeX,
+      Python (familiar),
+      Mathematica (familiar)
+    }
+    \skillsCategory{Tools}{
+      AngularJS,
+      Agile Development (Scrum, Kanban),
+      Git,
+      Play Framework,
+      Spring,
+      Bootstrap,
+      Grunt,
+      JUnit,
+      Mockito,
+      Karma,
+      Hibernate,
+      REST,
+      Selenium,
+      Node.js,
+      Review Board
+    }
+    \skillsCategory{Software}{
+      IntelliJ IDEA,
+      Eclipse,
+      %IBM Rational Application Developer,
+      Rally,
+      DBeaver,
+      Photoshop
+    }
+  }
+} 
+
+%==============================================================================
+
+\resumeSection{Education}{
+  {\bf University of North Carolina at Chapel Hill} \hfill \dateStyle{May 2014} \\
+  B.S. in Applied Mathematics \\
+  B.A. in Physics, Minor in Music \\
+  GPA 3.83 overall
+}
+
+%==============================================================================
+
+\resumeSection{Academic Honors}{
+  \bulletedList{
+    \item Chancellor's Carolina Scholarship: full tuition, room, and board for four years
+    \item UNC-Chapel Hill National Merit Scholarship
+    \item Dean's List of Distinguished Students, all semesters
+    \item Phi Beta Kappa: National Academic Honor Society
+    \item Sigma Pi Sigma: Physics Honor Society
+  }
+}
+
+%==============================================================================
+
+\resumeSection{Projects}{
+  \projectExperience{Disability Process Automation}{MTU Capstone Project}{2014}{
+    \item Re-implemented part of one of MetLife's largest enterprise applications used by over 1300 claims administrators to handle over 800,000 disability claims a year, working on a small, Agile team
+    \item Reduced end-to-end search time by 42\% by replacing the outdated user interface with a Single Page Application built on Angular, Spring MVC, and a RESTful back end
+    \item Achieved the only perfect score for Technical Aptitude on my team
+    \item Project was selected to be presented to Marty Lippert, Executive Vice President of Global Technology at MetLife
+  }
+}
+
+%==============================================================================
+
+\resumeSection{Leadership Activities}{
+  \leadershipExperience{Co-founder, Music Director}{UNC Tarpeggios a cappella group}{2010--2014}{
+    \item Elected four years consecutively
+    \item Recruited original members and established official University recognition
+    \item Wrote original constitution and bylaws
+    \item Wrote arrangements for over 40 songs performed by the group
+    \item Planned and led over 200 rehearsals
+    \item Prepared seven full-length concerts and dozens of other live performances
+    \item Oversaw the completion of a \$10,000.00 professionally-produced studio album
+  }
+}
+
+%==============================================================================
+\end{document}
+%==============================================================================
