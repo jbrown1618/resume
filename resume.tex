@@ -20,10 +20,10 @@
 
 \newcommand*\headerRule[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
 
-\newcommand{\dateStyle}[1]{\textit{#1}}
+\newcommand{\dateStyle}[1]{\dotfill \textit{#1}}
 
 \newcommand{\jobExperience}[4]{
-  {\bf #1,} #2 \dotfill \dateStyle{#3}
+  {\bf #1,} #2 \dateStyle{#3}
   \vspace{-6pt}
   \bulletedList{#4}
 }
@@ -170,7 +170,7 @@
 %==============================================================================
 
 \resumeSection{Education}{
-  {\bf University of North Carolina at Chapel Hill} \dotfill \dateStyle{May 2014} \\
+  {\bf University of North Carolina at Chapel Hill} \dateStyle{May 2014} \\
   B.S. in Applied Mathematics \\
   B.A. in Physics, Minor in Music \\
   GPA 3.83 overall
