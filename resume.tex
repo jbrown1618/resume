@@ -18,10 +18,12 @@
   \end{itemize}
 }
 
+\newcommand*\headerRule[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
+
 \newcommand{\dateStyle}[1]{\textit{#1}}
 
 \newcommand{\jobExperience}[4]{
-  {\bf #1,} #2 \hfill \dateStyle{#3}
+  {\bf #1,} #2 \dotfill \dateStyle{#3}
   \vspace{-6pt}
   \bulletedList{#4}
 }
@@ -30,10 +32,12 @@
 \newcommand{\leadershipExperience}[4]{\jobExperience{#1}{#2}{#3}{#4}}
 
 \newcommand{\skillsTable}[1]{
+  \vspace{4pt}
   \hspace{-8pt}
   \begin{tabular}{p{0.75in} p{6.5in}}
     #1
   \end{tabular}
+  \vspace{-6pt}
 }
 
 \newcommand{\skillsCategory}[2]{
@@ -41,11 +45,11 @@
 }
 
 \newcommand{\resumeSection}[2]{
-  {\bf #1}
+  \headerRule{\textbf{#1}}
+  
+  \vspace{-6pt}
   
   #2
-  
-  \vspace{-8pt}\hrulefill\vspace{-4pt}
 }
 
 \newcommand{\resumeHeader}[3]{
