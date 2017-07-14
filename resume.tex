@@ -1,6 +1,6 @@
 \documentclass{article}
 
-\usepackage[margin=0.5in, letterpaper]{geometry} % margin configuration
+\usepackage[margin=0.4in, letterpaper]{geometry} % margin configuration
 \usepackage{parskip} % use blank lines rather than indentation for paragraphs
 \usepackage{enumitem} % additional configuration for itemize environments
 
@@ -20,16 +20,20 @@
 
 \newcommand*\headerRule[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
 
-\newcommand{\dateStyle}[1]{\dotfill \textit{#1}}
+\newcommand{\dateStyle}[1]{\hfill \textit{#1}}
 
-\newcommand{\jobExperience}[4]{
+\newcommand{\experienceHeader}[3]{
   {\bf #1,} #2 \dateStyle{#3}
-  \vspace{-6pt}
+}
+
+\newcommand{\experience}[4]{
+  \experienceHeader{#1}{#2}{#3}\\
+  \vspace{-16pt}
   \bulletedList{#4}
 }
 
-\newcommand{\projectExperience}[4]{\jobExperience{#1}{#2}{#3}{#4}}
-\newcommand{\leadershipExperience}[4]{\jobExperience{#1}{#2}{#3}{#4}}
+\newcommand{\projectExperience}[4]{\experience{#1}{#2}{#3}{#4}}
+\newcommand{\leadershipExperience}[4]{\experience{#1}{#2}{#3}{#4}}
 
 \newcommand{\skillsTable}[1]{
   \vspace{4pt}
@@ -57,7 +61,7 @@
     #2
   \end{minipage}\begin{minipage}[t]{0.4\textwidth}
     \begin{center}
-      {\bf #1}
+      {\Large \textsc{#1}}
     \end{center}
   \end{minipage}\begin{minipage}[t]{0.3\textwidth}
     \begin{flushright}
@@ -84,8 +88,10 @@
 
 %==============================================================================
 
-\resumeSection{Experience}{
-  \jobExperience{Software Development Engineer II}{MetLife Inc.}{2014-Present}{
+\resumeSection{Work Experience}{
+  \experienceHeader{Software Development Engineer II}{MetLife Inc.}{2016-Present}{}\\
+  \experienceHeader{Software Development Engineer I}{MetLife Inc.}{2015-2016}{}\\
+  \experience{Associate Software Development Engineer}{MetLife Inc.}{2014-2015}{
     \item Developed an enterprise application to be used by underwriters to renew group benefits products for over 10,000 companies a month, each of which with up to 2000 employees
     \item Pioneered the company's use of new technologies such as AngularJS and the Play Framework on an Agile team 
     \item Modified and clarified requirements by communicating closely with end-users and project managers
@@ -95,11 +101,11 @@
     \item Enforced best practices and design principles by conducting code reviews
   }
   
-  \jobExperience{MetLife Tech University Professional Program}{MetLife Inc.}{2014}{
+  \experience{MetLife Tech University Professional Program}{MetLife Inc.}{2014}{
     \item Participated in the first cohort of the MTU Professional Program---an individualized six-month training program designed to prepare recent graduates for a technical career
   }
   
-  \jobExperience{Supplemental Instruction Leader}{UNC Department of Physics}{2013-2014}{
+  \experience{Supplemental Instruction Leader}{UNC Department of Physics}{2013-2014}{
     \item Planned and led three weekly Supplemental Instruction Sessions to give students the opportunity to practice effective problem-solving and study strategies for physics
     \item Facilitated group problem-solving among introductory physics students
     \item Created a 60-page textbook supplement for use by the students
@@ -121,14 +127,14 @@
       XML,
       LaTeX,
       Markdown,
-      MatLab%,
-      %Python (familiar),
+      MatLab,
+      Python (familiar)%,
       %Mathematica (familiar)
     }
     \skillsCategory{Frameworks}{
       Spring,
       Play,
-      Spark,
+      %Spark,
       Hibernate,
       JUnit,
       Mockito,
@@ -136,7 +142,7 @@
       AngularJS (1.X),
       Angular (2+),
       Jasmine,
-      Bootstrap,
+      Bootstrap%,
       %React (familiar),
       %Redux (familiar)
     }
@@ -161,8 +167,8 @@
       JIRA,
       Bitbucket,
       Review Board,
-      DBeaver,
-      Photoshop
+      DBeaver%,
+      %Photoshop
     }
   }
 } 
@@ -204,12 +210,10 @@
 \resumeSection{Leadership Activities}{
   \leadershipExperience{Co-founder, Music Director}{UNC Tarpeggios a cappella group}{2010--2014}{
     \item Elected four years consecutively
-    \item Recruited original members and established official University recognition
-    \item Wrote original constitution and bylaws
+    \item Wrote original constitution and bylaws, recruited original members, and established official University recognition
+    \item Planned and led over 200 rehearsals, seven full-length concerts, and dozens of other live performances
+    \item Credited as a producer on a \$10,000.00 professionally-edited studio album
     \item Wrote arrangements for over 40 songs performed by the group
-    \item Planned and led over 200 rehearsals
-    \item Prepared seven full-length concerts and dozens of other live performances
-    \item Oversaw the completion of a \$10,000.00 professionally-produced studio album
   }
 }
 
