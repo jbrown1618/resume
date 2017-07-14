@@ -4,75 +4,10 @@
 \usepackage{parskip} % use blank lines rather than indentation for paragraphs
 \usepackage{enumitem} % additional configuration for itemize environments
 
-%\renewcommand{\familydefault}{\sfdefault}
-%\usepackage{helvet} % uses helvetica
+\input{resume-commands.tex} % include custom commands
 
-\def \jabName {Joshua A. Brown}
-\def \jabEmail {jbrown1.618@gmail.com}
-\def \jabPhone {(860) 271--9092}
-\def \jabAddress {104 Fox Run Ct.\\Durham, NC 27705}
-
-\newcommand{\bulletedList}[1]{
-  \begin{itemize}[leftmargin=*] \itemsep -6pt
-    #1
-  \end{itemize}
-}
-
-\newcommand*\headerRule[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
-
-\newcommand{\dateStyle}[1]{\hfill \textit{#1}}
-
-\newcommand{\experienceHeader}[3]{
-  {\bf #1,} #2 \dateStyle{#3}
-}
-
-\newcommand{\experience}[4]{
-  \experienceHeader{#1}{#2}{#3}\\
-  \vspace{-16pt}
-  \bulletedList{#4}
-}
-
-\newcommand{\projectExperience}[4]{\experience{#1}{#2}{#3}{#4}}
-\newcommand{\leadershipExperience}[4]{\experience{#1}{#2}{#3}{#4}}
-
-\newcommand{\skillsTable}[1]{
-  \vspace{4pt}
-  \hspace{-8pt}
-  \begin{tabular}{p{0.8in} p{6.5in}}
-    #1
-  \end{tabular}
-  \vspace{-8pt}
-}
-
-\newcommand{\skillsCategory}[2]{
-  {\bf #1:} & #2 \\[4pt]
-}
-
-\newcommand{\resumeSection}[2]{
-  \headerRule{\textbf{#1}}
-  
-  \vspace{-6pt}
-  
-  #2
-}
-
-\newcommand{\resumeHeader}[3]{
-  \begin{minipage}[t]{0.3\textwidth}
-    #2
-  \end{minipage}\begin{minipage}[t]{0.4\textwidth}
-    \begin{center}
-      {\Large \textsc{#1}}
-    \end{center}
-  \end{minipage}\begin{minipage}[t]{0.3\textwidth}
-    \begin{flushright}
-      #3
-    \end{flushright}
-  \end{minipage}
-}
-
-%==============================================================================
 \begin{document}
-\thispagestyle{empty}
+\thispagestyle{empty} % Suppress page numbers
 %==============================================================================
 
 \pdfinfo{
