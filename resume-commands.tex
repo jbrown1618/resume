@@ -37,6 +37,7 @@
   \experienceHeader{#1}{#2}{#3}\\
   \vspace{-16pt}
   \bulletedList{#4}
+  \vspace{-2pt}
 }
 
 \newcommand{\projectExperience}[4]{\experience{#1}{#2}{#3}{#4}}
@@ -44,12 +45,14 @@
 
 % 1 (list of \skillsCategories)
 \newcommand{\skillsTable}[1]{
-  \vspace{4pt}
+  \vspace{6pt}
   \hspace{-8pt}
+  \renewcommand{\arraystretch}{0.8} % Reduce row spacing
   \begin{tabular}{p{0.8in} p{6.5in}}
     #1
   \end{tabular}
-  \vspace{-8pt}
+  \renewcommand{\arraystretch}{1.0} % Restore row spacing
+  \vspace{-6pt}
 }
 
 % 1 (category), 2 (comma-delimited list of skills in that category)
