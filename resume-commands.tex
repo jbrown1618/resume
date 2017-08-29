@@ -15,7 +15,7 @@
 %==============================================================================
 
 \newcommand{\bulletedList}[1]{
-  \begin{itemize}[leftmargin=*] \itemsep -6pt
+  \begin{itemize}[leftmargin=*] \itemsep -4pt
     #1
   \end{itemize}
 }
@@ -29,7 +29,7 @@
 
 % 1 (description/title), 2 (company/context), 3 (date range)
 \newcommand{\experienceHeader}[3]{
-  {\textbf{#1,} } #2 \dateStyle{#3}
+  \textbf{#1,} #2 \dateStyle{#3}
 }
 
 % 1 (description/title), 2 (company/context), 3 (date range), 4 (bulleted list of items)
@@ -47,17 +47,17 @@
 \newcommand{\skillsTable}[1]{
   \vspace{6pt}
   \hspace{-8pt}
-  \renewcommand{\arraystretch}{0.8} % Reduce row spacing
+  %\renewcommand{\arraystretch}{0.8} % Reduce row spacing
   \begin{tabular}{p{0.8in} p{6.5in}}
     #1
   \end{tabular}
-  \renewcommand{\arraystretch}{1.0} % Restore row spacing
-  \vspace{-6pt}
+  %\renewcommand{\arraystretch}{1.0} % Restore row spacing
+  \vspace{-10pt}
 }
 
 % 1 (category), 2 (comma-delimited list of skills in that category)
 \newcommand{\skillsCategory}[2]{
-  {\textbf{#1:} } & #2 \\[4pt]
+  \textbf{#1:} & #2 \\[4pt]
 }
 
 % Large-scale structures
@@ -67,9 +67,9 @@
 \newcommand{\resumeSection}[2]{
   \headerRule{\textbf{#1}}
   
-  \vspace{-8pt}
+  \vspace{-6pt}
   #2
-  \vspace{-2pt}
+  \vspace{0pt}
 }
 
 % 1 (title), 2 (left header), 3 (right header)
