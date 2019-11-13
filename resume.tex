@@ -1,8 +1,9 @@
 \documentclass{article}
 
-\usepackage[margin=0.4in, letterpaper]{geometry} % margin configuration
+\usepackage[margin=0.8in, letterpaper]{geometry} % margin configuration
 \usepackage{parskip} % use blank lines rather than indentation for paragraphs
 \usepackage{enumitem} % additional configuration for itemize environments
+\usepackage{tabularx} % tables which support line breaks
 
 \input{resume-commands.tex} % include custom commands
 
@@ -21,22 +22,21 @@
   {\textbf{Contact} \\ \jabEmail \\ \jabPhone}
   {\textbf{More} \\ \jabGithub \\ \jabLinkedin}
 
-\resumeSection{Work Experience}{
-  \experience{Senior Associate Software Developer}{SAS Institute}{2017-Present}{
+\resumeSection{Professional Experience}{
+  \experience{Senior Associate Software Developer}{SAS Institute, Data Visualization R\&D}{2017--Present}{
     \item Worked with JavaScript, TypeScript and C++ to build cutting-edge web applications based
           on WebAssembly for the SAS Viya platform
     \item Designed a tool for encapsulating our team's complex karma configuration and distilling
           it into options specific to our development environment
     \item Worked on a smaller team of two to deliver a new customer-facing application for creating
           data visualization templates
-    \item Wrote a CLI for working with our division's distributed build system
   }
 
   \experienceHeader{Software Development Engineer II}{MetLife Inc.}{2017}\\
-  \experienceHeader{Software Development Engineer I}{MetLife Inc.}{2016-2017}\\
-  \experience{Associate Software Development Engineer}{MetLife Inc.}{2015-2016}{
+  \experienceHeader{Software Development Engineer I}{MetLife Inc.}{2016--2017}\\
+  \experience{Associate Software Development Engineer}{MetLife Inc.}{2015--2016}{
     \item Developed an enterprise application used by underwriters to renew group benefits products
-          for over 10,000 companies a month
+          for over 10,000 companies per month
     \item Pioneered MetLife's use of new technologies such as AngularJS and the Play Framework on
           an Agile team, taught Angular techniques to senior software engineers new to the framework,
           and was the ``go-to'' subject matter expert
@@ -55,10 +55,33 @@
     \item Achieved the only perfect score for Technical Aptitude on my team
   }
 
-  \experience{Supplemental Instruction Leader}{UNC Department of Physics}{2013-2014}{
+  \experience{Supplemental Instruction Leader}{UNC Department of Physics}{2013--2014}{
     \item Planed and led three weekly Supplemental Instruction sessions to teach students effective problem
           solving strategies
     \item Facilitated group problem-solving among introductory physics students
+  }
+}
+
+\resumeSection{Projects}{
+  \project{@josh-brown/vector}{
+    \item Built a linear algebra library in TypeScript from the ground up; currently available on NPM
+    \item Implemented basic matrix and vector operations, eigenvalue algorithms, matrix factorizations, 
+          and applications to statistics and differential equations
+    \item Achieved 100\% test coverage for functions and 99.5\% coverage for lines
+  }
+
+  \project{Unicorn CLI}{
+    \item Developed a command line interface for interacting with our division's distributed build system
+    \item Replaced a manual process with a developer-friendly, automation-friendly workflow
+    \item Generated enough interest to draw users and contributors from across Data Visualization R\&D
+  }
+
+  \project{Predicting Mortgage Rates}{
+    \item Used data from the Home Mortgage Disclosure Act to build an ensemble model which combines
+          the outputs of a gradient boosting algorithm and a random forest to predict
+          whether a mortgage will be approved
+    \item Designed a flexible, metadata-driven architecture which can easily accommodate new features
+          without a code change.
   }
 }
 
@@ -140,7 +163,7 @@
 }
 
 \resumeSection{Leadership Activities}{
-  \leadershipExperience{Co-founder, Music Director}{UNC Tarpeggios a cappella group}{2010--2014}{
+  \leadershipExperience{Founder, Music Director}{UNC Tarpeggios a cappella group}{2010--2014}{
     \item Wrote original constitution and bylaws, recruited original members, and established official University
           recognition
     \item Planned and led over 200 rehearsals, seven full-length concerts, and dozens of other live performances
