@@ -1,5 +1,7 @@
 # Resume
 
+My resume, written in LaTeX.  Feel free to take a peek!
+
 ## Setup
 
 1. Install LaTeX
