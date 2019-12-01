@@ -1,6 +1,12 @@
 \documentclass{article}
 
-\usepackage[margin=0.8in, letterpaper]{geometry} % margin configuration
+\usepackage[
+  letterpaper,
+  top=0.6in,
+  bottom=0.6in,
+  left=0.8in,
+  right=0.8in
+]{geometry} % margin configuration
 \usepackage{parskip} % use blank lines rather than indentation for paragraphs
 \usepackage{enumitem} % additional configuration for itemize environments
 \usepackage{tabularx} % tables which support line breaks
@@ -29,6 +35,8 @@
   \experience{Senior Associate Software Developer}{2017--Present}{
     \item Built cutting-edge applications and libraries based on WebAssembly for the SAS Viya
           platform, using TypeScript, JavaScript, and C++
+    \item Led the development of a framework for writing integration tests for the interface layer
+          between JavaScript host code and a WebAssembly-based C++ runtime
     \item Delivered a new customer-facing application for creating data visualization templates,
           working on a team of two
     \item Designed a tool for encapsulating the team's complex karma configuration and distilling
