@@ -4,12 +4,13 @@
   letterpaper,
   top=0.7in,
   bottom=0.7in,
-  left=0.8in,
-  right=0.8in
+  left=0.7in,
+  right=0.7in
 ]{geometry} % margin configuration
 \usepackage{parskip} % use blank lines rather than indentation for paragraphs
 \usepackage{enumitem} % additional configuration for itemize environments
 \usepackage{tabularx} % tables which support line breaks
+\usepackage{bold-extra} % allow bold small caps
 
 \input{resume-commands.tex} % include custom commands
 
@@ -30,21 +31,27 @@
 
 \resumeSection{Professional Experience}{
 
-  \company{GitHub/Microsoft---Azure DevOps}
+  \company{GitHub/Microsoft}{2020--Present}
 
-  \experience{Software Engineer III}{2020--Present}{
-    \item Won first place in GitHub's internal 2020 Code-to-Cloud Hackathon in the Team Productivity
-          category by building a chatbot for sharing interactions with live product telemetry
-    \item Delivered new features to the Azure DevOps product
-    \item Addressed time-sensitive live-site incidents and outages to support Microsoft's SLAs with
-          its customers
+  \experience{Senior Software Engineer---GitHub Repos and Search}{
+    \item Established patterns for delivering react applications inside GitHub.com
+    \item Delivered new features to GitHub Search
+  }
+  \experience{Software Engineer III---Azure DevOps}{
+    \item Owned, extended, and optimized the Work Item Query Language and its auto-optimization
+          engine---an area which had previously been maintained by an entire team
     \item Trained a machine learning model to proactively identify slow-running dynamic SQL queries 
           and used Shapley values to identify opportunities to improve query auto-optimization
+    \item Delivered a refreshed UX for Azure Boards to drastically improve accessibility
+    \item Won first place in GitHub's internal 2020 Code-to-Cloud Hackathon in the Team Productivity
+          category by building a chatbot for sharing interactions with live product telemetry
+    \item Addressed time-sensitive live-site incidents and outages to support Microsoft's SLAs with
+          its customers
   }
 
-  \company{SAS Institute---Data Visualization R\&D}
+  \company{SAS Institute---Data Visualization R\&D}{2017--2020}
 
-  \experience{Senior Associate Software Developer}{2017--2020}{
+  \experience{Senior Associate Software Developer}{
     \item Built cutting-edge applications and libraries based on WebAssembly for the SAS Viya
           platform, using TypeScript, JavaScript, and C++
     \item Led the development of a framework for writing integration tests for the interface layer
@@ -57,11 +64,9 @@
           throughout the company
   }
 
-  \company{MetLife, Inc.}
+  \company{MetLife, Inc.}{2014--2016}
 
-  \experienceHeader{Software Development Engineer II}{2017}\\
-  \experienceHeader{Software Development Engineer I}{2016--2017}\\
-  \experience{Associate Software Development Engineer}{2014--2016}{
+  \experience{Software Development Engineer II}{
     \item Developed an enterprise application used by underwriters to renew group benefits insurance
           products for over 10,000 companies per month
     \item Re-implemented the application-wide search, reducing end-to-end request time by a factor
@@ -74,9 +79,9 @@
     \item Implemented a report automation system, replacing over a dozen manual reports per month
   }
 
-  \company{UNC Department of Physics}
+  \company{UNC Department of Physics}{2013--2014}
 
-  \experience{Supplemental Instruction Leader}{2013--2014}{
+  \experience{Supplemental Instruction Leader}{
     \item Planned and led three Supplemental Instruction sessions per week to teach physics students
           effective problem solving strategies
     \item Created a 100-page supplemental textbook to offer alternative explanations for complex topics
@@ -103,18 +108,17 @@
 \resumeSection{Technical Skills}{
   \skillsTable{
     \skillsCategory{Languages}{
-      TypeScript / JavaScript,
+      TypeScript/JavaScript,
       C\#,
       Java,
+      Ruby,
       C++,
       Python,
       BASH,
       SQL,
       MatLab,
       LaTeX,
-      HTML,
-      CSS,
-      Sass
+      HTML/CSS
     }
     \skillsCategory{Tools}{
       Git,
@@ -132,19 +136,19 @@
       Angular,
       Spring,
       Hibernate,
+      Rails,
       Pandas,
       NumPy,
       Scikit-learn,
       JUnit,
-      Jest,
-      Mocha,
-      Chai
+      Jest
     }
     \skillsCategory{Concepts}{
+      DevOps,
       Object-Oriented Programming,
       Functional Programming,
       Machine Learning,
-      Agile Development
+      Agile
     }
     \skillsCategory{Software}{
       GitHub,
@@ -159,7 +163,7 @@
 }
 
 \resumeSection{Education}{
-  \experience{University of North Carolina at Chapel Hill}{May 2014}{
+  \experience{University of North Carolina at Chapel Hill}{
     \item Chancellor's Carolina Scholarship: full ride scholarship including tuition, room, and board for four years
     \item B.S. in Applied Mathematics with Highest Distinction; B.A. in Physics; Minor in Music
     \item UNC-Chapel Hill National Merit Scholarship
@@ -171,7 +175,7 @@
 }
 
 \resumeSection{Extracurricular Activities}{
-  \leadershipExperience{Founder and Music Director}{UNC Tarpeggios a cappella group}{2010--2014}{
+  \leadershipExperience{Founder and Music Director}{UNC Tarpeggios a cappella group}{
     \item Established one of the most popular and selective a cappella groups at UNC
     \item Planned and led over 300 rehearsals, seven full-length concerts with hundreds of attendees,
           and dozens of other live performances

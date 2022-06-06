@@ -31,32 +31,33 @@
 \newcommand*\headerRule[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
 
 \newcommand{\subheaderStyle}[1]{\textbf{#1}}
-\newcommand{\dateStyle}[1]{\hfill \textit{#1}}
+\newcommand{\dateStyle}[1]{\dotfill \textit{#1}}
 
 % Experience Sections
 %==============================================================================
 
-\newcommand{\company}[1]{
-  \subheaderStyle{#1}\vspace{-6pt}
-}
-
 % 1 (description/title), 2 (date range)
-\newcommand{\experienceHeader}[2]{
-  \subheaderStyle{#1} \dateStyle{#2}
+\newcommand{\company}[2]{
+  \textsc{\subheaderStyle{#1}}\dateStyle{#2}\vspace{-6pt}
 }
 
-% 1 (description/title), 2 (company/context), 3 (date range), 4 (bulleted list of items)
-\newcommand{\experience}[3]{
-  \listWithTitle{\experienceHeader{#1}{#2}}{#3}
+% 1 (description/title)
+\newcommand{\experienceHeader}[1]{
+  \subheaderStyle{#1}
 }
 
-% 1 (description), 4 (bulleted list of items)
+% 1 (description/title), 2 (company/context), 3 (bulleted list of items)
+\newcommand{\experience}[2]{
+  \listWithTitle{\experienceHeader{#1}}{#2}
+}
+
+% 1 (description), 2 (bulleted list of items)
 \newcommand{\project}[2]{
   \listWithTitle{\subheaderStyle{#1}}{#2}
 }
 
-\newcommand{\leadershipExperience}[4]{
-  \listWithTitle{\subheaderStyle{#1,} #2 \dateStyle{#3}}{#4}
+\newcommand{\leadershipExperience}[3]{
+  \listWithTitle{\subheaderStyle{#1,} #2}{#3}
 }
 
 % 1 (list of \skillsCategories)
@@ -92,7 +93,7 @@
     #2
   \end{minipage}\begin{minipage}[t]{0.4\textwidth}
     \begin{center}
-      {\Large \textsc{#1}}
+      {\Large \textbf{\textsc{#1}}}
     \end{center}
   \end{minipage}\begin{minipage}[t]{0.3\textwidth}
     \begin{flushright}
