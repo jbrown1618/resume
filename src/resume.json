@@ -1,0 +1,174 @@
+{
+  "basics": {
+    "name": "Joshua A. Brown",
+    "email": "jbrown1.618@gmail.com",
+    "phone": "(860) 271-9092",
+    "github": "github.com/jbrown1618",
+    "linkedin": "linkedin.com/in/jbrown1618"
+  },
+  "summary": "Staff software engineer and architect with 12 years of experience delivering developer platforms, AI products, and high-scale web applications. Technical leader behind GitHub Copilot experiences, secure LLM workflows, and GitHub.com interfaces serving tens of millions of daily views.",
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "TypeScript/JavaScript",
+        "Go",
+        "Python",
+        "Ruby",
+        "C#",
+        "C++",
+        "SQL",
+        "Bash",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Git",
+        "Node.js",
+        "npm",
+        "React",
+        "Jest",
+        "Kubernetes"
+      ]
+    },
+    {
+      "category": "Concepts",
+      "items": [
+        "Large Language Models",
+        "Software Architecture",
+        "DevOps",
+        "Machine Learning"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "GitHub/Microsoft",
+      "dates": "2020-Present",
+      "roles": [
+        {
+          "title": "Staff Software Engineer",
+          "team": "GitHub Copilot",
+          "bullets": [
+            "Led the architecture of Copilot Remote Control, enabling developers to securely control local LLM sessions from other devices"
+          ]
+        },
+        {
+          "title": "Senior Software Engineer",
+          "team": "GitHub Repos and Copilot",
+          "bullets": [
+            "Architected Copilot Chat's integration with GitHub repository, pull request, and issue context",
+            "Developed Copilot Chat's model integrations on GitHub.com, including OpenAI o1, Google Gemini, and Anthropic Claude Sonnet",
+            "Architected a React rewrite of GitHub's file viewing experience, serving 70 million views per day",
+            "Established patterns for delivering React applications inside GitHub.com",
+            "Delivered new features to GitHub Search"
+          ]
+        },
+        {
+          "title": "Software Engineer III",
+          "team": "Azure DevOps",
+          "bullets": [
+            "Owned, extended, and optimized the Work Item Query Language and its auto-optimization engine - an area which had previously been maintained by an entire team",
+            "Trained a machine learning model to proactively identify slow-running dynamic SQL queries and used Shapley values to identify opportunities to improve query auto-optimization",
+            "Delivered a refreshed UX for Azure Boards to drastically improve accessibility",
+            "Won first place in GitHub's internal 2020 Code-to-Cloud Hackathon in the Team Productivity category by building a chatbot for sharing interactions with live product telemetry",
+            "Addressed time-sensitive live-site incidents and outages to support Microsoft's SLAs with its customers"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "SAS Institute",
+      "division": "Data Visualization R&D",
+      "dates": "2017-2020",
+      "roles": [
+        {
+          "title": "Senior Associate Software Developer",
+          "bullets": [
+            "Built cutting-edge applications and libraries based on WebAssembly for the SAS Viya platform, using TypeScript, JavaScript, and C++",
+            "Led the development of a framework for writing integration tests for the interface layer between JavaScript host code and a WebAssembly-based C++ runtime",
+            "Delivered a new customer-facing application for creating data visualization templates, working on a team of two",
+            "Designed a tool for encapsulating the team's complex karma configuration and distilling it into options specific to the development environment",
+            "Drove inner-source practices by supporting the adoption of tools I designed by teams throughout the company"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "MetLife, Inc.",
+      "dates": "2014-2016",
+      "page_break_before": true,
+      "roles": [
+        {
+          "title": "Software Development Engineer II",
+          "bullets": [
+            "Developed an enterprise application used by underwriters to renew group benefits insurance products for over 10,000 companies per month",
+            "Re-implemented the application-wide search, reducing end-to-end request time by a factor of 1000",
+            "Led a team of software engineers in building a proof-of-concept for a \"next-phase\" application built on Spring Boot and Angular; consulted for teams using it as a prototype as it became a standard for new projects",
+            "Taught then-new technologies such as AngularJS and Play to senior software engineers new to the frameworks, and was the \"go-to\" subject matter expert",
+            "Implemented a report automation system, replacing over a dozen manual reports per month"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "UNC Department of Physics",
+      "dates": "2013-2014",
+      "roles": [
+        {
+          "title": "Supplemental Instruction Leader",
+          "bullets": [
+            "Planned and led three Supplemental Instruction sessions per week to teach physics students effective problem solving strategies",
+            "Created a 100-page supplemental textbook to offer alternative explanations for complex topics",
+            "Organized and facilitated group problem-solving sessions for introductory physics students"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects_and_leadership": [
+    {
+      "title": "@josh-brown/vector",
+      "bullets": [
+        "Built a linear algebra package in TypeScript from the ground up; currently available on npm",
+        "Implemented matrix and vector operations, eigenvalue finding, matrix factorizations, machine learning algorithms and applications to statistics and calculus",
+        "Achieved 100% test coverage for functions and 99.5% coverage for lines"
+      ]
+    },
+    {
+      "title": "Unicorn CLI",
+      "bullets": [
+        "Developed a command line interface for interacting with SAS Data Visualization R&D's distributed build system",
+        "Replaced a manual process with a developer-friendly, automation-friendly workflow",
+        "Application was widely adopted and attracted contributors from throughout the division"
+      ]
+    },
+    {
+      "title": "Founder and Music Director",
+      "context": "UNC Tarpeggios a cappella group",
+      "bullets": [
+        "Established one of the most popular and selective a cappella groups at UNC",
+        "Planned and led over 300 rehearsals, seven full-length concerts with hundreds of attendees, and dozens of other live performances",
+        "Managed the production of a $10,000.00 professionally-produced studio album",
+        "Wrote original constitution and bylaws, recruited and auditioned members, and established University recognition",
+        "Arranged over 40 songs performed by the group"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "bullets": [
+        "Chancellor's Carolina Scholarship: full ride scholarship including tuition, room, and board for four years",
+        "B.S. in Applied Mathematics with Highest Distinction; B.A. in Physics; Minor in Music",
+        "UNC-Chapel Hill National Merit Scholarship",
+        "Dean's List of Distinguished Students, Seven Semesters",
+        "Phi Beta Kappa: National Academic Honor Society",
+        "Sigma Pi Sigma: National Physics Honor Society",
+        "GPA 3.8"
+      ]
+    }
+  ]
+}
