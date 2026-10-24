@@ -6,7 +6,7 @@ jbrown1.618@gmail.com | (860) 271-9092 | [github.com/jbrown1618](https://github.
 
 ## Summary
 
-Staff software engineer with 12 years of experience building enterprise software, developer platforms, and AI products. Hands-on full-stack technical leader spanning cross-team delivery, reusable architecture, and mentoring, with work ranging from cross-device Copilot experiences to web interfaces serving 70 million daily views.
+Staff software engineer with 12 years of experience building AI products, developer platforms, and enterprise software. Hands-on full-stack technical leader spanning cross-team delivery, reusable architecture, and mentoring, with work ranging from cross-device Copilot experiences to web interfaces serving 70 million daily views.
 
 ## Technical Skills
 
