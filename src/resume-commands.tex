@@ -7,14 +7,13 @@
 %==============================================================================
 
 \newcommand{\bulletedList}[1]{
-  \begin{itemize}[leftmargin=*] \itemsep 1pt
+  \begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=2pt, parsep=0pt]
     #1
   \end{itemize}
 }
 
 \newcommand{\listWithTitle}[2]{
-  #1\\
-  \vspace{-16pt}
+  #1\par\nobreak
   \bulletedList{#2}
   \vspace{-2pt}
 }
@@ -29,7 +28,7 @@
 
 % 1 (description/title), 2 (date range)
 \newcommand{\company}[2]{
-  \textsc{\subheaderStyle{#1}}\dateStyle{#2}\vspace{-3pt}
+  \subheaderStyle{#1}\dateStyle{#2}\vspace{-3pt}
 }
 
 % 1 (description/title)
@@ -84,7 +83,7 @@
     #2
   \end{minipage}\begin{minipage}[t]{0.4\textwidth}
     \begin{center}
-      {\Large \textbf{\textsc{#1}}}
+      {\Large \textbf{#1}}
     \end{center}
   \end{minipage}\begin{minipage}[t]{0.3\textwidth}
     \begin{flushright}

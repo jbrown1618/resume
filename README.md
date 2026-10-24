@@ -40,5 +40,5 @@ npm run check
 Install LaTeX and the required packages to let `npm run generate` build the PDF:
 
 ```sh
-sudo tlmgr install enumitem tools bold-extra cm-mf-extra-bold
+sudo tlmgr install enumitem tools
 ```
