@@ -23,7 +23,7 @@
   /Author (Joshua A. Brown)
   /Title (Resume - Joshua A. Brown)
   /Subject (Resume)
-  /Keywords (Software Engineer;Architecture;GitHub Copilot;TypeScript/JavaScript;Go;Python;Ruby;C\#;C++;SQL;Bash;HTML/CSS;Git;Node.js;npm;React;Jest;Kubernetes;Large Language Models;Software Architecture;DevOps;Machine Learning)
+  /Keywords (Software Engineer;Architecture;GitHub Copilot;TypeScript;JavaScript;Go;Python;Ruby;C\#;C++;SQL;React;HTML/CSS;WebAssembly;Accessibility;UI architecture;Jest;Integration testing;Node.js;Azure;Cosmos DB;WebSockets;API design;LLM integrations;Observability;Cross-team delivery;Technical roadmaps;Architecture documentation;Mentoring;Stakeholder alignment)
 }
 
 \resumeHeader{Joshua A. Brown}
@@ -31,19 +31,22 @@
   {\textbf{More} \\ github.com/jbrown1618 \\ linkedin.com/in/jbrown1618}
 
 \resumeSection{Summary}{
-  Staff software engineer and architect with 12 years of experience delivering developer platforms, AI products, and high-scale web applications. Technical leader behind GitHub Copilot experiences, secure LLM workflows, and GitHub.com interfaces serving tens of millions of daily views.
+  Staff software engineer with 12 years of experience building enterprise software, developer platforms, and AI products. Hands-on full-stack technical leader spanning cross-team delivery, reusable architecture, and mentoring, with work ranging from cross-device Copilot experiences to web interfaces serving 70 million daily views.
 }
 
 \resumeSection{Technical Skills}{
   \skillsTable{
     \skillsCategory{Languages}{
-      TypeScript/JavaScript, Go, Python, Ruby, C\#, C++, SQL, Bash, HTML/CSS
+      TypeScript, JavaScript, Go, Python, Ruby, C\#, C++, SQL
     }
-    \skillsCategory{Tools}{
-      Git, Node.js, npm, React, Jest, Kubernetes
+    \skillsCategory{Front end}{
+      React, HTML/CSS, WebAssembly, Accessibility, UI architecture, Jest, Integration testing
     }
-    \skillsCategory{Concepts}{
-      Large Language Models, Software Architecture, DevOps, Machine Learning
+    \skillsCategory{Platforms}{
+      Node.js, Azure, Cosmos DB, WebSockets, API design, LLM integrations, Observability
+    }
+    \skillsCategory{Leadership}{
+      Cross-team delivery, Technical roadmaps, Architecture documentation, Mentoring, Stakeholder alignment
     }
   }
 }
@@ -53,87 +56,71 @@
   \company{GitHub/Microsoft}{2020--Present}
 
   \experience{Staff Software Engineer---GitHub Copilot}{
-    \item Led the architecture of Copilot Remote Control, enabling developers to securely control local LLM sessions from other devices
+    \item Led architecture and cross-team delivery of Copilot Remote Control across CLI, web, and mobile; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
+    \item Defined shared session and event contracts for cross-client synchronization, preserving forward and backward compatibility and unblocking mobile and VS Code integrations
+    \item Partnered with product and client teams to set milestones, resolve API requirements, and adjust launch scope in response to user feedback; delivered enterprise policy controls across five repositories
+    \item Leading service architecture refactoring to improve composability and flexibility, alongside real-time communication enhancements using Azure Web PubSub and WebSockets
+    \item Mentored engineers through platform design and ownership handoffs, including session event translation, UI plugins, and secure storage and reauthorization of private data
+    \item Coordinated model-capacity planning across five teams, building a unified usage dashboard and establishing forecasting standards to address rate-limiting risks
   }
   \experience{Senior Software Engineer---GitHub Repos and Copilot}{
-    \item Architected Copilot Chat's integration with GitHub repository, pull request, and issue context
-    \item Developed Copilot Chat's model integrations on GitHub.com, including OpenAI o1, Google Gemini, and Anthropic Claude Sonnet
-    \item Architected a React rewrite of GitHub's file viewing experience, serving 70 million views per day
-    \item Established patterns for delivering React applications inside GitHub.com
-    \item Delivered new features to GitHub Search
+    \item Architected the React rewrite of GitHub's file viewing experience, serving 70 million views per day, and established patterns for React applications across GitHub.com
+    \item Designed an extensible frontend plugin architecture adopted by three product teams, enabling independent feature development without cross-team bottlenecks
+    \item Led architecture and phased delivery of an AI workflow platform, including Cosmos DB storage, authentication, observability, and a lossless migration from browser storage to a backend service
+    \item Integrated repository, pull request, and issue context into Copilot Chat and delivered multi-model experiences with OpenAI o1, Google Gemini, and Anthropic Claude
+    \item Established architecture decision records and documentation practices that onboarded seven or more engineers and aligned security and infrastructure partners
   }
   \experience{Software Engineer III---Azure DevOps}{
-    \item Owned, extended, and optimized the Work Item Query Language and its auto-optimization engine - an area which had previously been maintained by an entire team
-    \item Trained a machine learning model to proactively identify slow-running dynamic SQL queries and used Shapley values to identify opportunities to improve query auto-optimization
-    \item Delivered a refreshed UX for Azure Boards to drastically improve accessibility
-    \item Won first place in GitHub's internal 2020 Code-to-Cloud Hackathon in the Team Productivity category by building a chatbot for sharing interactions with live product telemetry
-    \item Addressed time-sensitive live-site incidents and outages to support Microsoft's SLAs with its customers
-  }
-
-  \company{SAS Institute---Data Visualization R\&D}{2017--2020}
-
-  \experience{Senior Associate Software Developer}{
-    \item Built cutting-edge applications and libraries based on WebAssembly for the SAS Viya platform, using TypeScript, JavaScript, and C++
-    \item Led the development of a framework for writing integration tests for the interface layer between JavaScript host code and a WebAssembly-based C++ runtime
-    \item Delivered a new customer-facing application for creating data visualization templates, working on a team of two
-    \item Designed a tool for encapsulating the team's complex karma configuration and distilling it into options specific to the development environment
-    \item Drove inner-source practices by supporting the adoption of tools I designed by teams throughout the company
+    \item Owned and optimized the Work Item Query Language and query auto-optimization engine, assuming responsibility for an area previously maintained by an entire team
+    \item Improved Azure Boards accessibility and resolved live-site incidents supporting enterprise customer SLAs
   }
 
   \newpage
 
+  \company{SAS Institute---Data Visualization R\&D}{2017--2020}
+
+  \experience{Senior Associate Software Developer}{
+    \item Built browser applications and libraries for SAS Viya using TypeScript, JavaScript, C++, and WebAssembly, including a customer-facing data visualization template editor
+    \item Led development of an integration testing framework spanning JavaScript host code and a WebAssembly-based C++ runtime
+    \item Drove adoption of shared testing and developer tools across teams through inner-source contributions and support
+  }
+
   \company{MetLife, Inc.}{2014--2016}
 
   \experience{Software Development Engineer II}{
-    \item Developed an enterprise application used by underwriters to renew group benefits insurance products for over 10,000 companies per month
-    \item Re-implemented the application-wide search, reducing end-to-end request time by a factor of 1000
-    \item Led a team of software engineers in building a proof-of-concept for a ``next-phase'' application built on Spring Boot and Angular; consulted for teams using it as a prototype as it became a standard for new projects
-    \item Taught then-new technologies such as AngularJS and Play to senior software engineers new to the frameworks, and was the ``go-to'' subject matter expert
-    \item Implemented a report automation system, replacing over a dozen manual reports per month
+    \item Developed an enterprise underwriting application supporting group benefits renewals for over 10,000 companies per month; rebuilt search to reduce end-to-end request time by a factor of 1,000
+    \item Technically led a team building a Spring Boot and Angular proof of concept that became a standard for new projects; advised teams adopting the architecture
+    \item Taught AngularJS and Play to senior engineers and automated more than a dozen recurring manual reports per month
   }
 
   \company{UNC Department of Physics}{2013--2014}
 
   \experience{Supplemental Instruction Leader}{
-    \item Planned and led three Supplemental Instruction sessions per week to teach physics students effective problem solving strategies
-    \item Created a 100-page supplemental textbook to offer alternative explanations for complex topics
-    \item Organized and facilitated group problem-solving sessions for introductory physics students
+    \item Led weekly physics problem-solving sessions and authored a 100-page supplemental textbook explaining complex topics
   }
 
 }
 
 \resumeSection{Projects \& Leadership}{
   \project{@josh-brown/vector}{
-    \item Built a linear algebra package in TypeScript from the ground up; currently available on npm
-    \item Implemented matrix and vector operations, eigenvalue finding, matrix factorizations, machine learning algorithms and applications to statistics and calculus
-    \item Achieved 100\% test coverage for functions and 99.5\% coverage for lines
+    \item Published a TypeScript linear algebra package on npm with matrix factorizations, eigenvalue algorithms, and machine learning applications; achieved 100\% function and 99.5\% line test coverage
   }
 
   \project{Unicorn CLI}{
-    \item Developed a command line interface for interacting with SAS Data Visualization R\&D's distributed build system
-    \item Replaced a manual process with a developer-friendly, automation-friendly workflow
-    \item Application was widely adopted and attracted contributors from throughout the division
+    \item Built a CLI for SAS's distributed build system, replacing manual steps with an automation-friendly workflow adopted by engineers and contributors across the division
   }
 
   \leadershipExperience{Founder and Music Director}{UNC Tarpeggios a cappella group}{
-    \item Established one of the most popular and selective a cappella groups at UNC
-    \item Planned and led over 300 rehearsals, seven full-length concerts with hundreds of attendees, and dozens of other live performances
-    \item Managed the production of a \$10,000.00 professionally-produced studio album
-    \item Wrote original constitution and bylaws, recruited and auditioned members, and established University recognition
-    \item Arranged over 40 songs performed by the group
+    \item Founded a university-recognized ensemble, recruited members, and led over 300 rehearsals and seven full-length concerts; managed production of a \$10,000 studio album
   }
 
 }
 
 \resumeSection{Education}{
   \experience{University of North Carolina at Chapel Hill}{
-    \item Chancellor's Carolina Scholarship: full ride scholarship including tuition, room, and board for four years
     \item B.S. in Applied Mathematics with Highest Distinction; B.A. in Physics; Minor in Music
-    \item UNC-Chapel Hill National Merit Scholarship
-    \item Dean's List of Distinguished Students, Seven Semesters
-    \item Phi Beta Kappa: National Academic Honor Society
-    \item Sigma Pi Sigma: National Physics Honor Society
-    \item GPA 3.8
+    \item Chancellor's Carolina Scholarship: four-year full ride; UNC-Chapel Hill National Merit Scholarship
+    \item Phi Beta Kappa; Sigma Pi Sigma; GPA 3.8
   }
 }
 

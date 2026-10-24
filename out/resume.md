@@ -6,13 +6,14 @@ jbrown1.618@gmail.com | (860) 271-9092 | [github.com/jbrown1618](https://github.
 
 ## Summary
 
-Staff software engineer and architect with 12 years of experience delivering developer platforms, AI products, and high-scale web applications. Technical leader behind GitHub Copilot experiences, secure LLM workflows, and GitHub.com interfaces serving tens of millions of daily views.
+Staff software engineer with 12 years of experience building enterprise software, developer platforms, and AI products. Hands-on full-stack technical leader spanning cross-team delivery, reusable architecture, and mentoring, with work ranging from cross-device Copilot experiences to web interfaces serving 70 million daily views.
 
 ## Technical Skills
 
-- **Languages:** TypeScript/JavaScript, Go, Python, Ruby, C#, C++, SQL, Bash, HTML/CSS
-- **Tools:** Git, Node.js, npm, React, Jest, Kubernetes
-- **Concepts:** Large Language Models, Software Architecture, DevOps, Machine Learning
+- **Languages:** TypeScript, JavaScript, Go, Python, Ruby, C#, C++, SQL
+- **Front end:** React, HTML/CSS, WebAssembly, Accessibility, UI architecture, Jest, Integration testing
+- **Platforms:** Node.js, Azure, Cosmos DB, WebSockets, API design, LLM integrations, Observability
+- **Leadership:** Cross-team delivery, Technical roadmaps, Architecture documentation, Mentoring, Stakeholder alignment
 
 ## Professional Experience
 
@@ -20,82 +21,66 @@ Staff software engineer and architect with 12 years of experience delivering dev
 
 #### Staff Software Engineer - GitHub Copilot
 
-- Led the architecture of Copilot Remote Control, enabling developers to securely control local LLM sessions from other devices
+- Led architecture and cross-team delivery of Copilot Remote Control across CLI, web, and mobile; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
+- Defined shared session and event contracts for cross-client synchronization, preserving forward and backward compatibility and unblocking mobile and VS Code integrations
+- Partnered with product and client teams to set milestones, resolve API requirements, and adjust launch scope in response to user feedback; delivered enterprise policy controls across five repositories
+- Leading service architecture refactoring to improve composability and flexibility, alongside real-time communication enhancements using Azure Web PubSub and WebSockets
+- Mentored engineers through platform design and ownership handoffs, including session event translation, UI plugins, and secure storage and reauthorization of private data
+- Coordinated model-capacity planning across five teams, building a unified usage dashboard and establishing forecasting standards to address rate-limiting risks
 
 #### Senior Software Engineer - GitHub Repos and Copilot
 
-- Architected Copilot Chat's integration with GitHub repository, pull request, and issue context
-- Developed Copilot Chat's model integrations on GitHub.com, including OpenAI o1, Google Gemini, and Anthropic Claude Sonnet
-- Architected a React rewrite of GitHub's file viewing experience, serving 70 million views per day
-- Established patterns for delivering React applications inside GitHub.com
-- Delivered new features to GitHub Search
+- Architected the React rewrite of GitHub's file viewing experience, serving 70 million views per day, and established patterns for React applications across GitHub.com
+- Designed an extensible frontend plugin architecture adopted by three product teams, enabling independent feature development without cross-team bottlenecks
+- Led architecture and phased delivery of an AI workflow platform, including Cosmos DB storage, authentication, observability, and a lossless migration from browser storage to a backend service
+- Integrated repository, pull request, and issue context into Copilot Chat and delivered multi-model experiences with OpenAI o1, Google Gemini, and Anthropic Claude
+- Established architecture decision records and documentation practices that onboarded seven or more engineers and aligned security and infrastructure partners
 
 #### Software Engineer III - Azure DevOps
 
-- Owned, extended, and optimized the Work Item Query Language and its auto-optimization engine - an area which had previously been maintained by an entire team
-- Trained a machine learning model to proactively identify slow-running dynamic SQL queries and used Shapley values to identify opportunities to improve query auto-optimization
-- Delivered a refreshed UX for Azure Boards to drastically improve accessibility
-- Won first place in GitHub's internal 2020 Code-to-Cloud Hackathon in the Team Productivity category by building a chatbot for sharing interactions with live product telemetry
-- Addressed time-sensitive live-site incidents and outages to support Microsoft's SLAs with its customers
+- Owned and optimized the Work Item Query Language and query auto-optimization engine, assuming responsibility for an area previously maintained by an entire team
+- Improved Azure Boards accessibility and resolved live-site incidents supporting enterprise customer SLAs
 
 ### SAS Institute - Data Visualization R&D (2017-2020)
 
 #### Senior Associate Software Developer
 
-- Built cutting-edge applications and libraries based on WebAssembly for the SAS Viya platform, using TypeScript, JavaScript, and C++
-- Led the development of a framework for writing integration tests for the interface layer between JavaScript host code and a WebAssembly-based C++ runtime
-- Delivered a new customer-facing application for creating data visualization templates, working on a team of two
-- Designed a tool for encapsulating the team's complex karma configuration and distilling it into options specific to the development environment
-- Drove inner-source practices by supporting the adoption of tools I designed by teams throughout the company
+- Built browser applications and libraries for SAS Viya using TypeScript, JavaScript, C++, and WebAssembly, including a customer-facing data visualization template editor
+- Led development of an integration testing framework spanning JavaScript host code and a WebAssembly-based C++ runtime
+- Drove adoption of shared testing and developer tools across teams through inner-source contributions and support
 
 ### MetLife, Inc. (2014-2016)
 
 #### Software Development Engineer II
 
-- Developed an enterprise application used by underwriters to renew group benefits insurance products for over 10,000 companies per month
-- Re-implemented the application-wide search, reducing end-to-end request time by a factor of 1000
-- Led a team of software engineers in building a proof-of-concept for a "next-phase" application built on Spring Boot and Angular; consulted for teams using it as a prototype as it became a standard for new projects
-- Taught then-new technologies such as AngularJS and Play to senior software engineers new to the frameworks, and was the "go-to" subject matter expert
-- Implemented a report automation system, replacing over a dozen manual reports per month
+- Developed an enterprise underwriting application supporting group benefits renewals for over 10,000 companies per month; rebuilt search to reduce end-to-end request time by a factor of 1,000
+- Technically led a team building a Spring Boot and Angular proof of concept that became a standard for new projects; advised teams adopting the architecture
+- Taught AngularJS and Play to senior engineers and automated more than a dozen recurring manual reports per month
 
 ### UNC Department of Physics (2013-2014)
 
 #### Supplemental Instruction Leader
 
-- Planned and led three Supplemental Instruction sessions per week to teach physics students effective problem solving strategies
-- Created a 100-page supplemental textbook to offer alternative explanations for complex topics
-- Organized and facilitated group problem-solving sessions for introductory physics students
+- Led weekly physics problem-solving sessions and authored a 100-page supplemental textbook explaining complex topics
 
 ## Projects & Leadership
 
 ### @josh-brown/vector
 
-- Built a linear algebra package in TypeScript from the ground up; currently available on npm
-- Implemented matrix and vector operations, eigenvalue finding, matrix factorizations, machine learning algorithms and applications to statistics and calculus
-- Achieved 100% test coverage for functions and 99.5% coverage for lines
+- Published a TypeScript linear algebra package on npm with matrix factorizations, eigenvalue algorithms, and machine learning applications; achieved 100% function and 99.5% line test coverage
 
 ### Unicorn CLI
 
-- Developed a command line interface for interacting with SAS Data Visualization R&D's distributed build system
-- Replaced a manual process with a developer-friendly, automation-friendly workflow
-- Application was widely adopted and attracted contributors from throughout the division
+- Built a CLI for SAS's distributed build system, replacing manual steps with an automation-friendly workflow adopted by engineers and contributors across the division
 
 ### Founder and Music Director, UNC Tarpeggios a cappella group
 
-- Established one of the most popular and selective a cappella groups at UNC
-- Planned and led over 300 rehearsals, seven full-length concerts with hundreds of attendees, and dozens of other live performances
-- Managed the production of a $10,000.00 professionally-produced studio album
-- Wrote original constitution and bylaws, recruited and auditioned members, and established University recognition
-- Arranged over 40 songs performed by the group
+- Founded a university-recognized ensemble, recruited members, and led over 300 rehearsals and seven full-length concerts; managed production of a $10,000 studio album
 
 ## Education
 
 ### University of North Carolina at Chapel Hill
 
-- Chancellor's Carolina Scholarship: full ride scholarship including tuition, room, and board for four years
 - B.S. in Applied Mathematics with Highest Distinction; B.A. in Physics; Minor in Music
-- UNC-Chapel Hill National Merit Scholarship
-- Dean's List of Distinguished Students, Seven Semesters
-- Phi Beta Kappa: National Academic Honor Society
-- Sigma Pi Sigma: National Physics Honor Society
-- GPA 3.8
+- Chancellor's Carolina Scholarship: four-year full ride; UNC-Chapel Hill National Merit Scholarship
+- Phi Beta Kappa; Sigma Pi Sigma; GPA 3.8
