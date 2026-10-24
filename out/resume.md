@@ -67,7 +67,7 @@ Staff software engineer with 12 years of experience building enterprise software
 
 ### @josh-brown/vector
 
-- Published a TypeScript linear algebra package on npm with matrix factorizations, eigenvalue algorithms, and machine learning applications; achieved 100% function and 99.5% line test coverage
+- Built and published a TypeScript linear algebra package on npm, implementing machine learning algorithms, matrix factorizations, and eigenvalue algorithms from scratch with zero runtime dependencies
 
 ### Unicorn CLI
 
