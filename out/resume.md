@@ -21,20 +21,20 @@ Staff software engineer with 12 years of experience building AI products, develo
 
 #### Staff Software Engineer - GitHub Copilot
 
-- Led architecture and cross-team delivery of Copilot Remote Control across platform, CLI, web, mobile, and Desktop teams; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
+- Led architecture and cross-team delivery of Copilot Remote Control, coordinating platform, CLI, web, mobile, desktop, and IDE extension teams; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
 - Defined shared session and event contracts for cross-client synchronization, preserving forward and backward compatibility and unblocking mobile and VS Code integrations
 - Partnered with product and client teams to set milestones, resolve API requirements, and adjust launch scope in response to user feedback; delivered enterprise policy controls across five repositories
-- Leading service architecture refactoring to improve composability and flexibility, alongside real-time communication enhancements using Azure Web PubSub and WebSockets
+- Led service architecture refactoring to improve composability and flexibility, alongside real-time communication enhancements using Azure Web PubSub and WebSockets
 - Mentored engineers through platform design and ownership handoffs, including session event translation, UI plugins, and secure storage and reauthorization of private data
-- Coordinated model-capacity planning across five teams, building a unified usage dashboard and establishing forecasting standards to address rate-limiting risks
+- Coordinated model-capacity planning across five teams. Built a unified usage dashboard and established forecasting standards to address rate-limiting risks
 
 #### Senior Software Engineer - GitHub Repos and Copilot
 
 - Architected the React rewrite of GitHub's file viewing experience, serving 70 million views per day, and established patterns for React applications across GitHub.com
-- Designed an extensible frontend plugin architecture adopted by three product teams, enabling independent feature development without cross-team bottlenecks
+- Designed an extensible frontend plugin architecture that three product teams adopted to develop features independently and eliminate cross-team bottlenecks
 - Led architecture and phased delivery of an AI workflow platform, including Cosmos DB storage, authentication, observability, and a lossless migration from browser storage to a backend service
 - Integrated repository, pull request, and issue context into Copilot Chat and delivered multi-model experiences with OpenAI o1, Google Gemini, and Anthropic Claude
-- Established architecture decision records and documentation practices that onboarded seven or more engineers and aligned security and infrastructure partners
+- Established architecture decision records and team documentation standards to onboard seven or more engineers and align security and infrastructure partners
 
 #### Software Engineer III - Azure DevOps
 
@@ -54,7 +54,7 @@ Staff software engineer with 12 years of experience building AI products, develo
 #### Software Development Engineer II
 
 - Developed an enterprise underwriting application supporting group benefits renewals for over 10,000 companies per month; rebuilt search to reduce end-to-end request time by a factor of 1,000
-- Technically led a team building a Spring Boot and Angular proof of concept that became a standard for new projects; advised teams adopting the architecture
+- Led engineers in building a Spring Boot and Angular proof of concept that became a standard for new projects; guided teams adopting the architecture
 - Taught AngularJS and Play to senior engineers and automated more than a dozen recurring manual reports per month
 
 ### UNC Department of Physics (2013-2014)
@@ -71,7 +71,7 @@ Staff software engineer with 12 years of experience building AI products, develo
 
 ### Unicorn CLI
 
-- Built a CLI for SAS's distributed build system, replacing manual steps with an automation-friendly workflow adopted by engineers and contributors across the division
+- Built a CLI for SAS's distributed build system and replaced manual steps with an automation-friendly workflow; engineers across the division adopted and contributed to the tool
 
 ### Founder and Music Director, UNC Tarpeggios a cappella group
 
