@@ -21,7 +21,7 @@ Staff software engineer with 12 years of experience building AI products, develo
 
 #### Staff Software Engineer - GitHub Copilot
 
-- Led architecture and cross-team delivery of Copilot Remote Control across CLI, web, and mobile; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
+- Led architecture and cross-team delivery of Copilot Remote Control across platform, CLI, web, mobile, and Desktop teams; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
 - Defined shared session and event contracts for cross-client synchronization, preserving forward and backward compatibility and unblocking mobile and VS Code integrations
 - Partnered with product and client teams to set milestones, resolve API requirements, and adjust launch scope in response to user feedback; delivered enterprise policy controls across five repositories
 - Leading service architecture refactoring to improve composability and flexibility, alongside real-time communication enhancements using Azure Web PubSub and WebSockets
