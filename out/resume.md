@@ -34,7 +34,7 @@ Staff software engineer with 12 years of experience building AI products, develo
 - Designed an extensible frontend plugin architecture that three product teams adopted to develop features independently and eliminate cross-team bottlenecks
 - Led architecture and phased delivery of an AI workflow platform, including Cosmos DB storage, authentication, observability, and a lossless migration from browser storage to a backend service
 - Integrated repository, pull request, and issue context into Copilot Chat and delivered multi-model experiences with OpenAI o1, Google Gemini, and Anthropic Claude
-- Established architecture decision records and team documentation standards to onboard seven or more engineers and align security and infrastructure partners
+- Established architecture decision records and team documentation standards to onboard seven engineers and align security and infrastructure partners
 
 #### Software Engineer III - Azure DevOps
 
