@@ -2,7 +2,8 @@
 \documentclass{article}
 
 \usepackage[T1]{fontenc}
-\usepackage[default]{sourcesans}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage[
   letterpaper,
@@ -26,8 +27,6 @@
 {{PDF_INFO}}
 
 {{HEADER}}
-
-\setlength{\emergencystretch}{1em} % accommodate the sans-serif font's word widths
 
 {{CONTENT}}
 
