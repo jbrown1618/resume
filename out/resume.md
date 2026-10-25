@@ -23,7 +23,7 @@ Staff software engineer with 12 years of experience building AI products, develo
 
 - Led architecture and cross-team delivery of Copilot Remote Control, coordinating platform, CLI, web, mobile, desktop, and IDE extension teams; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
 - Defined shared session and event contracts for cross-client synchronization, preserving forward and backward compatibility and unblocking mobile and VS Code integrations
-- Partnered with product and client teams to set milestones, resolve API requirements, and adjust launch scope in response to user feedback; delivered enterprise policy controls across five repositories
+- Partnered with product and client teams to set milestones, resolve API requirements, and adjust launch scope in response to user feedback; delivered policy controls vital for enterprise adoption
 - Led service architecture refactoring to improve composability and flexibility, alongside real-time communication enhancements using Azure Web PubSub and WebSockets
 - Mentored engineers through platform design and ownership handoffs, including session event translation, UI plugins, and secure storage and reauthorization of private data
 - Coordinated model-capacity planning across five teams. Built a unified usage dashboard and established forecasting standards to address rate-limiting risks
