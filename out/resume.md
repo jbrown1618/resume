@@ -6,13 +6,14 @@ jbrown1.618@gmail.com | (860) 271-9092 | [github.com/jbrown1618](https://github.
 
 ## Summary
 
-Staff software engineer with 12 years of experience building AI products, developer platforms, and enterprise software. Hands-on full-stack technical leader spanning cross-team delivery, reusable architecture, and mentoring, with work ranging from cross-device Copilot experiences to web interfaces serving 70 million daily views.
+Staff software engineer focused on AI products and developer platforms, with 12 years of software development experience. Hands-on full-stack technical leader in cross-team delivery, reusable architecture, and mentoring. Led cross-device Copilot experiences and frontend architecture serving 70 million daily views.
 
 ## Technical Skills
 
-- **Languages:** TypeScript, JavaScript, Go, Python, Ruby, C#, C++, SQL
+- **Languages:** TypeScript, JavaScript, Go, Python
 - **Front end:** React, HTML/CSS, WebAssembly, Accessibility, UI architecture, Jest, Integration testing
-- **Platforms:** Node.js, Azure, Cosmos DB, WebSockets, API design, LLM integrations, Observability
+- **Backend & AI:** Node.js, API design, Cosmos DB, LLM integrations, Observability
+- **Real time:** WebSockets, Azure Web PubSub, Cross-client synchronization
 - **Leadership:** Cross-team delivery, Technical roadmaps, Architecture documentation, Mentoring, Stakeholder alignment
 
 ## Professional Experience
@@ -21,20 +22,21 @@ Staff software engineer with 12 years of experience building AI products, develo
 
 #### Staff Software Engineer - GitHub Copilot
 
-- Led architecture and cross-team delivery of Copilot Remote Control, coordinating platform, CLI, web, mobile, desktop, and IDE extension teams; shipped to general availability after a preview reaching 10K daily users and 30K remote sessions per day
-- Defined shared session and event contracts for cross-client synchronization, preserving forward and backward compatibility and unblocking mobile and VS Code integrations
-- Partnered with product and client teams to set milestones, resolve API requirements, and adjust launch scope in response to user feedback; delivered policy controls vital for enterprise adoption
-- Led service architecture refactoring to improve composability and flexibility, alongside real-time communication enhancements using WebSockets via Azure Web PubSub
-- Grew engineers' technical independence by modeling architectural decision-making, collaborating on designs, and progressively handing off ownership
+- Led architecture and phased delivery of Copilot Remote Control from zero to public preview in six weeks, coordinating platform, CLI, web, mobile, desktop, and IDE extension teams; preview reached 10K daily users and 30K remote sessions per day
+- Defined forward- and backward-compatible session and event contracts for cross-client synchronization; led real-time communication enhancements using WebSockets via Azure Web PubSub
+- Partnered with product and client teams on API requirements, milestones, and user-driven launch scope, balancing delivery velocity against long-term architectural rigor
+- Delivered policy controls vital for enterprise adoption
+- Implemented a dependency-graph linter enforcing hexagonal architecture and module boundaries as the service evolves from a single product into a multi-team platform
+- Grew engineers' technical independence through modeling architectural decisions, collaborative design, and progressive ownership handoffs; mentees went on to lead major engineering initiatives
 - Coordinated model-capacity planning across five teams. Built a unified usage dashboard and established forecasting standards to address rate-limiting risks
 
 #### Senior Software Engineer - GitHub Repos and Copilot
 
-- Architected the React rewrite of GitHub's file viewing experience, serving 70 million views per day, and established patterns for React applications across GitHub.com
-- Designed an extensible frontend plugin architecture that three product teams adopted to develop features independently and eliminate cross-team bottlenecks
-- Led architecture and phased delivery of an AI workflow platform, including Cosmos DB storage, authentication, observability, and a lossless migration from browser storage to a backend service
-- Integrated repository, pull request, and issue context into Copilot Chat and delivered multi-model experiences with OpenAI o1, Google Gemini, and Anthropic Claude
-- Documented architectural tradeoffs and rollout plans; maintained decision logs, including architecture decision records (ADRs), to onboard seven engineers and align security and infrastructure partners
+- Architected the React rewrite of GitHub's file-viewing experience, serving 70 million daily views; enabled code-search integration with definition and usage navigation, substantially improved accessibility, and laid the foundation for later Copilot integration
+- Designed explicit frontend extension points adopted by three product teams, enabling independent development in team-owned packages while preserving a cohesive product experience
+- Architected an internal AI workflow platform combining LLM and deterministic steps in a directed acyclic graph; evaluations against comparable one-shot prompts demonstrated more consistent results
+- Made Copilot Chat on GitHub.com model-agnostic, enabling its first multi-provider experiences; integrated repository, pull request, and issue context
+- Documented architectural tradeoffs and rollout plans; maintained decision logs, including ADRs, to onboard seven engineers and align security and infrastructure partners
 
 #### Software Engineer III - Azure DevOps
 
@@ -57,12 +59,6 @@ Staff software engineer with 12 years of experience building AI products, develo
 - Led engineers in building a Spring Boot and Angular proof of concept that became a standard for new projects; guided teams adopting the architecture
 - Taught AngularJS and Play to senior engineers and automated more than a dozen recurring manual reports per month
 
-### UNC Department of Physics (2013-2014)
-
-#### Supplemental Instruction Leader
-
-- Led weekly physics problem-solving sessions and authored a 100-page supplemental textbook explaining complex topics
-
 ## Projects & Leadership
 
 ### @josh-brown/vector
@@ -82,5 +78,5 @@ Staff software engineer with 12 years of experience building AI products, develo
 ### University of North Carolina at Chapel Hill
 
 - B.S. in Applied Mathematics with Highest Distinction; B.A. in Physics; Minor in Music
-- Chancellor's Carolina Scholarship: four-year full ride; UNC-Chapel Hill National Merit Scholarship
-- Phi Beta Kappa; Sigma Pi Sigma; GPA 3.8
+- Chancellor's Carolina Scholarship: four-year full ride
+- UNC-Chapel Hill National Merit Scholarship
