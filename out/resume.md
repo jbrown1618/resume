@@ -57,7 +57,6 @@ Staff software engineer focused on AI products and developer platforms, with 12 
 
 - Developed an enterprise underwriting application supporting group benefits renewals for over 10,000 companies per month; rebuilt search to reduce end-to-end request time by a factor of 1,000
 - Led engineers in building a Spring Boot and Angular proof of concept that became a standard for new projects; guided teams adopting the architecture
-- Taught AngularJS and Play to senior engineers and automated more than a dozen recurring manual reports per month
 
 ## Projects & Leadership
 
