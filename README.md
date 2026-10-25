@@ -40,5 +40,13 @@ npm run check
 Install LaTeX and the required packages to let `npm run generate` build the PDF:
 
 ```sh
-sudo tlmgr install enumitem tools
+sudo tlmgr install enumitem tools sourcesans ly1 mweights
 ```
+
+This experimental branch uses Source Sans 3 for the PDF, including its native bold
+and italic faces. The `sourcesans` package provides Type 1 fonts for `pdflatex`;
+no system font installation or change of LaTeX engine is required.
+The `ly1` and `mweights` packages are required by its `pdflatex` support.
+Body text remains 10pt with 0.7-inch margins and 1.05 line spacing. A 1em
+emergency stretch allowance prevents long justified lines from overflowing with
+the new font metrics; the established two-page break is unchanged.
