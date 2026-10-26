@@ -11,7 +11,7 @@ Staff software engineer focused on AI products and developer platforms, with 12 
 ## Technical Skills
 
 - **Languages:** TypeScript, JavaScript, Go, Python
-- **Front end:** React, HTML/CSS, WebAssembly, Accessibility, UI architecture, Jest, Integration testing
+- **Front end:** React, HTML/CSS, UI architecture, Accessibility, WebAssembly, Jest, Integration testing
 - **Backend & AI:** Node.js, API design, Cosmos DB, LLM integrations, Observability
 - **Real time:** WebSockets, Azure Web PubSub, Cross-client synchronization
 - **Leadership:** Cross-team delivery, Technical roadmaps, Architecture documentation, Mentoring, Stakeholder alignment
@@ -24,7 +24,7 @@ Staff software engineer focused on AI products and developer platforms, with 12 
 
 - Led architecture and phased delivery of Copilot Remote Control from zero to public preview in six weeks, coordinating platform, CLI, web, mobile, desktop, and IDE extension teams; preview reached 10K daily users and 30K remote sessions per day
 - Defined forward- and backward-compatible session and event contracts for cross-client synchronization; led real-time communication enhancements using WebSockets via Azure Web PubSub
-- Partnered with product and client teams on API requirements, milestones, and user-driven launch scope, balancing delivery velocity against long-term architectural rigor
+- Partnered with product managers and client technical leads on API requirements, milestones, and user-driven launch scope, balancing delivery velocity against long-term architectural rigor
 - Delivered enterprise policy controls restricting remote control between trusted and untrusted devices
 - Implemented a dependency-graph linter enforcing hexagonal architecture and module boundaries as the service evolves from a single product into a multi-team platform
 - Grew engineers' technical independence through modeling architectural decisions, collaborative design, and progressive ownership handoffs; mentees went on to lead major engineering initiatives
@@ -37,7 +37,7 @@ Staff software engineer focused on AI products and developer platforms, with 12 
 - Architected an internal AI workflow platform combining LLM and deterministic steps in a directed acyclic graph; evaluations against comparable one-shot prompts demonstrated more consistent results
 - Made Copilot Chat on GitHub.com model-agnostic, enabling its first multi-provider experiences
 - Integrated repository, pull request, and issue context into Copilot Chat
-- Documented architectural tradeoffs and rollout plans; maintained decision logs, including ADRs, to onboard seven engineers and align security and infrastructure partners
+- Documented architectural tradeoffs and rollout plans; maintained decision logs, including ADRs, to onboard seven engineers and align product, security, and infrastructure partners
 
 #### Software Engineer III - Azure DevOps
 
